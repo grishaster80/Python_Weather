@@ -1,5 +1,4 @@
 import pyowm
-from gingerit.gingerit import GingerIt
 a=input('Город?')
 owm = pyowm.OWM('60f45d88e7552897e6188ffbcb1baac3')
 observation = owm.weather_at_place(a)
