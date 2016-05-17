@@ -5,6 +5,3 @@ observation = owm.weather_at_place(a)
 w = observation.get_weather()
 x=w.get_temperature('celsius')
 print('Там ',x['temp'],' градусов')
-
-
-
